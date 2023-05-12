@@ -13,12 +13,19 @@ $colors: (
     activities__background--col: #FEFAF5
 );
 
-.navigation{
+.menu_wrapper { 
     background-color: map-get($colors, navigation__background--col);
     display:flex;
+    flex-direction: row;
+    margin-right: 0%;
 }
 
 .navigation__link__container {
-    width: 100%;
-    align-items: stretch;
+    flex-direction: row;
+    padding-right: 2%;
+}
+
+.logo__container {
+    margin-right: 55%;
+    margin-left: 5%;
 }

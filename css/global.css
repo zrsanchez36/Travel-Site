@@ -1,9 +1,16 @@
-.navigation {
+.menu_wrapper {
   background-color: #ffffff;
   display: flex;
+  flex-direction: row;
+  margin-right: 0%;
 }
 
 .navigation__link__container {
-  width: 100%;
-  align-items: stretch;
+  flex-direction: row;
+  padding-right: 2%;
+}
+
+.logo__container {
+  margin-right: 55%;
+  margin-left: 5%;
 }/*# sourceMappingURL=global.css.map */
