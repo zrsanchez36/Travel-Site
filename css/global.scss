@@ -10,9 +10,11 @@ $colors: (
     slogan__text--col: #335576,
     button1--col: #DB7A4E,
     reccomendations__title--col: #335576,
-    activities__background--col: #FEFAF5,
-)
+    activities__background--col: #FEFAF5
+);
 
-*[
-    font-family 'Verdana';
-]
+nav {
+    background-color: map-get($colors, navigation__background--col);
+    display:flex;
+    text-align: right;
+}
