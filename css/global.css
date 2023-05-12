@@ -1,5 +1,9 @@
-nav {
+.navigation {
   background-color: #ffffff;
   display: flex;
-  text-align: right;
+}
+
+.navigation__link__container {
+  width: 100%;
+  align-items: stretch;
 }/*# sourceMappingURL=global.css.map */
