@@ -1,9 +1,44 @@
-.hero__section {
-    display: flex;
-}
+/* Variables */
+@use'global.scss'as g;
+@use 'sass:map';
+@use 'partials/variables' as *;
+@use 'partials/mixins' as *;
+
+$colors: (
+    navigation__background--col: #ffffff,
+    logo__text--col: #335576,
+    page--active: #DB7A4E,
+    page__background--col: #FEFAF5,
+    footer__background--col: #FEFAF5,
+    footer__tile--col: #335576,
+    footer__text--col: #DB7A4E,
+    hero__background--col: #FEFAF5,
+    slogan__text--col: #335576,
+    button1--col: #DB7A4E,
+    button1__text--col: #ffffff,
+    logo__text--col: #335576,
+    reccomendations__title--col: #335576,
+    activities__background--col: #FEFAF5
+);
+
+
+/* Variables */
 
 /*body */
+.hero__section {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+}
 
-h1, h2 {
+h1, h2, p{
     color: map-get($colors, logo__text--col);
 }
+
+.btn {
+    margin-left: 5%;
+    margin-top: 2%;
+    background-color: map-get($colors, button1--col);
+    color: white !important;
+}
+/*body */

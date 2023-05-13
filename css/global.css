@@ -17,10 +17,6 @@
   color: #335576;
 }
 
-a {
-  color: black;
-}
-
 a.hover {
   background-color: red;
 }
@@ -36,4 +32,8 @@ a.active {
 /* Body */
 body {
   font-family: "Verdana";
+}
+
+h1 {
+  font-size: 2.625rem; /* 42px */
 }/*# sourceMappingURL=global.css.map */
