@@ -30,6 +30,7 @@ $colors: (
 .logo__container {
     margin-right: 55%;
     margin-left: 5%;
+    color: map-get($colors, logo__text--col);
 }
 
 a {
