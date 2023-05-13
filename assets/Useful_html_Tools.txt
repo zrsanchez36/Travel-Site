@@ -1,0 +1,61 @@
+Links----to----tools
+
+
+PX to VW converter
+https://www.quick-tools.net/300px-to-vw-2543vp
+
+-------------------------------------------------------------------------------------------------------
+
+PX to VH converter(Not as useful)
+https://www.pixelconverter.com/px-to-vh-converter/
+
+------------------------------------------------------------------------------------------------------
+All Around converter page
+https://nekocalc.com/
+
+
+------------------------------------------------------------------------------------------------------
+
+UI Ideas
+https://dribbble.com/
+.
+-------------------------------------------------------------------------------------------------------
+
+Naming Conventions
+https://getbem.com/
+
+https://css-tricks.com/growing-popularity-atomic-css/
+
+http://smacss.com/
+
+https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/
+
+
+
+---------------------------------------------------------------------------------------------------------------
+
+Programming Principials
+
+SOLID
+
+Single Responsibility: Breaking our code down into modules so each can focus on 1 responsibility each.
+Open/Closed: Create code/modules to be able to add new functonality in the future without having to make changes directly. Extend modules by wrapping or anything, we should never modify it directly. Once a module is in use it's locked.
+Liskov Substitution: Only extend modules when we are sure that the extension will keep it the same at heart.
+Interface Segrgation: Our modules don't need to know about functionality that it doesn't use. Split our modules into smaller abstractions like interfaces that we can then compose to form the exact functionality that a module requires.
+Dependancy Inversion
+
+
+
+https://bem-cheat-sheet.9elements.com/
+
+--------------------------------------------------------------------------------------------------------
+
+How to list your bootcamp on your resume
+
+https://resumeworded.com/blog/bootcamp-on-resume/
+
+------------------------------------------------------------------------------------------------------------------
+Reccomended units for css and HTML
+https://gist.github.com/basham/2175a16ab7c60ce8e001
+
+--------------------------------------------------------------------------------------------------------

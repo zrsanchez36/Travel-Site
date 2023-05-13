@@ -13,6 +13,8 @@ $colors: (
     activities__background--col: #FEFAF5
 );
 
+/* Navigation */ 
+
 .menu_wrapper { 
     background-color: map-get($colors, navigation__background--col);
     display:flex;
@@ -28,4 +30,25 @@ $colors: (
 .logo__container {
     margin-right: 55%;
     margin-left: 5%;
+}
+
+a {
+    color: black;
+}
+
+a.hover {
+    background-color: red;
+}
+a.active {
+    text-decoration: underline !important;
+    color: map-get($colors, page--active);
+    text-decoration-thickness: .20rem !important; /* 3.2px */
+    text-underline-offset: 1rem;
+    
+}
+
+/* Navigation */
+
+body {
+    font-family: 'Verdana';
 }
