@@ -1,0 +1,9 @@
+.hero__section {
+    display: flex;
+}
+
+/*body */
+
+h1, h2 {
+    color: map-get($colors, logo__text--col);
+}

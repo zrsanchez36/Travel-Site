@@ -1,1 +1,8 @@
-/*# sourceMappingURL=main.css.map */
+.hero__section {
+  display: flex;
+}
+
+/*body */
+h1, h2 {
+  color: black;
+}/*# sourceMappingURL=main.css.map */
