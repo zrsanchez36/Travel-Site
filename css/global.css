@@ -40,4 +40,29 @@ body {
 
 h1 {
   font-size: 2.625rem; /* 42px */
+}
+
+/*body */
+/*footer */
+.footer {
+  display: flex;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.footer__contact, .footer__hours, .footer__social {
+  display: inline-block;
+}
+
+footer p {
+  color: #DB7A4E;
+}
+
+footer h4 {
+  color: #335576;
+  font-weight: 6.25rem; /* 100px */
+}
+
+.footer__contact {
+  margin-right: 10%;
 }/*# sourceMappingURL=global.css.map */
