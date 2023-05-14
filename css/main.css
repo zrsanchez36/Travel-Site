@@ -57,4 +57,25 @@ h1, h2, p {
   height: 20rem;
 }
 
+/* body/reccommendations */
+.recommendations {
+  display: flex;
+}
+
+.recommendation__text {
+  margin-left: 5%;
+  margin-bottom: 5%;
+  flex-direction: column;
+}
+
+.recommendation__card--container {
+  display: inline-block;
+  height: 400px;
+  width: 300px;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+  justify-content: end;
+}
+
 /*body *//*# sourceMappingURL=main.css.map */
