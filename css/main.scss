@@ -1,8 +1,6 @@
 /* Variables */
-@use'global.scss'as g;
 @use 'sass:map';
-@use 'partials/variables' as *;
-@use 'partials/mixins' as *;
+
 
 $colors: (
     navigation__background--col: #ffffff,
@@ -16,7 +14,6 @@ $colors: (
     slogan__text--col: #335576,
     button1--col: #DB7A4E,
     button1__text--col: #ffffff,
-    logo__text--col: #335576,
     reccomendations__title--col: #335576,
     activities__background--col: #FEFAF5
 );
@@ -25,20 +22,62 @@ $colors: (
 /* Variables */
 
 /*body */
+
+
 .hero__section {
     display: flex;
     margin-top: 5%;
     margin-left: 5%;
+    margin-bottom: 5%;
 }
 
 h1, h2, p{
     color: map-get($colors, logo__text--col);
 }
 
+.hero__section--texts, .hero__section--title, .button__container, .hero__parahraph {
+    justify-content: left;
+}
+
+.hero__section--title{
+    padding-right: 10%;
+}
+
+.hero__section--texts {
+    width: 100rem;
+    margin-right: 10%;
+}
+
 .btn {
-    margin-left: 5%;
-    margin-top: 2%;
+    text-align: center;
     background-color: map-get($colors, button1--col);
     color: white !important;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 2.813rem; /*45px */
+    
+}
+
+.button__container {
+    margin-top: 7%;
+}
+
+.hero__parahraph {
+    width: 10rem;
+    padding-right: 4rem;
+    display: block;
+    margin-right: 10%;
+}
+
+.hero__img--container {
+    height: 100%; 
+    width: 100%;
+    justify-content: right;
+}
+
+.hero__img {
+    height: 20rem;
 }
 /*body */

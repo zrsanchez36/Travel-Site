@@ -33,15 +33,19 @@ $colors: (
     color: map-get($colors, logo__text--col);
 }
 
+nav a {
+    color: black;
+}
+
 a.hover {
     background-color: red;
 }
-a.active {
-    text-decoration: underline !important;
-    color: map-get($colors, page--active);
-    text-decoration-thickness: .20rem !important; /* 3.2px */
+
+nav a.active {
+    text-decoration-thickness: .3rem; /* 3.2px */
     text-underline-offset: 1rem;
-    
+    border-color: #DB7A4E;
+    text-decoration-color: map-get($colors, page--active);
 }
 
 /* Navigation */

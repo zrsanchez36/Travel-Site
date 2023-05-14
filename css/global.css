@@ -17,15 +17,19 @@
   color: #335576;
 }
 
+nav a {
+  color: black;
+}
+
 a.hover {
   background-color: red;
 }
 
-a.active {
-  text-decoration: underline !important;
-  color: #DB7A4E;
-  text-decoration-thickness: 0.2rem !important; /* 3.2px */
+nav a.active {
+  text-decoration-thickness: 0.3rem; /* 3.2px */
   text-underline-offset: 1rem;
+  border-color: #DB7A4E;
+  text-decoration-color: #DB7A4E;
 }
 
 /* Navigation */
