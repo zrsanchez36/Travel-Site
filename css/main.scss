@@ -28,6 +28,7 @@ $colors: (
     display: flex;
     padding: 5%;
     background-color: map-get($colors, page__background--col);
+    width: 100%vw;
 }
 
 h1, h2, p{

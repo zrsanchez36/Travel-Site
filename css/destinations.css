@@ -30,7 +30,7 @@
 
 .iceland__bg {
   width: 100% vw;
-  background-image: url("../assets/Images/hawaii.jpg");
+  background-image: url("../assets/Images/iceland.jpg");
   height: 50rem;
   overflow: hidden;
   background-size: cover;
@@ -40,7 +40,7 @@
 
 .greece__bg {
   width: 100% vw;
-  background-image: url("../assets/Images/hawaii.jpg");
+  background-image: url("../assets/Images/greece.jpg");
   height: 50rem;
   overflow: hidden;
   background-size: cover;

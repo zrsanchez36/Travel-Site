@@ -5,6 +5,7 @@
   display: flex;
   padding: 5%;
   background-color: #FEFAF5;
+  width: 100% vw;
 }
 
 h1, h2, p {
