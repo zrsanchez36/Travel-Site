@@ -1,12 +1,23 @@
 .schedule__card--container h3 {
-  text-decoration: underline;
-  text-underline-offset: 0.25rem;
-  text-decoration-thickness: 0.2rem; /* 3.2px */
   display: inline-block;
-  padding-left: 5%;
-  padding-right: 5%;
+  position: relative;
+  margin-bottom: 0%;
 }
 
+/* divider line */
+.line {
+  height: 1.75rem;
+}
+
+.divider {
+  width: 17rem; /* 160px*/
+  height: 0.25rem;
+  background-color: black;
+  display: inline-block;
+  box-shadow: #335576;
+}
+
+/* divider line */
 .hawaii__bg {
   width: 100% vw;
   background-image: url("../assets/Images/hawaii.jpg");
@@ -17,7 +28,27 @@
   margin: 0%;
 }
 
-.hawaii__bg h1 {
+.iceland__bg {
+  width: 100% vw;
+  background-image: url("../assets/Images/hawaii.jpg");
+  height: 50rem;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  margin: 0%;
+}
+
+.greece__bg {
+  width: 100% vw;
+  background-image: url("../assets/Images/hawaii.jpg");
+  height: 50rem;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  margin: 0%;
+}
+
+.hawaii__bg h1, .iceland__bg h1, .greece__bg h1 {
   color: #ffffff;
   font-size: 5rem;
   text-align: left;
@@ -47,6 +78,20 @@
 .schedule__card--container {
   display: flex;
   width: 100%;
-  padding: 4%;
+  padding: 3%;
   justify-content: center;
+}
+
+.activity__section {
+  padding: 5%;
+}
+
+.activity {
+  background-color: #FEFAF5;
+  text-align: center;
+  padding: 1%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+  font-size: 1rem;
 }/*# sourceMappingURL=destinations.css.map */
