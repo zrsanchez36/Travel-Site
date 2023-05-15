@@ -104,7 +104,7 @@ footer h2 {
 .email {
     width: 15rem;
 }
-.email p, .hours__times p {
+.email p, .hours__times p, .hours__times2 p, .closed p {
     color: map-get($colors, footer__tile--col);
 }
 
@@ -113,19 +113,33 @@ footer h2 {
 }
 
 .hours__times {
-    width: 6.25rem;
+    width: 11rem;
     display: inline-block;
 }
 
+.hours__times2 {
+    width: 11rem;
+    display: inline-block;
+}
+
+.closed {
+    width: 10.25rem;
+    display: inline-block;
+}
+
+.hours__times p {
+    padding: 0%;
+}
+
 .footer__title--social {
-    width: 7rem;
-    height: 4rem;
+    display: inline-block;
 }
 
 .social__image--section {
     display: inline-block;
     width: 10rem;
     margin-top: 2%;
+    align-items:flex-end;
 }
 
 .social__image--container {
@@ -154,12 +168,12 @@ footer h2 {
 
 .footer__text--days {
     display: inline-block;
-    width: 10rem;
+    width: 11rem;
 }
 
 .footer__text--sunday {
     display: inline-block;
-    width: 10rem;
+    width: 6.2rem;
 }
 
 .info__section {

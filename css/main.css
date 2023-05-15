@@ -61,6 +61,7 @@ h1, h2, p {
   display: flex;
   margin-right: 15%;
   margin-left: 15%;
+  margin-bottom: 10%;
 }
 
 .recommendation__text {
@@ -71,13 +72,14 @@ h1, h2, p {
 
 .recommendation__card--container {
   display: inline-block;
-  height: 400px;
+  height: 25rem; /* 400px */
   width: 300px;
   overflow: hidden;
   margin-right: 3%;
   border-radius: 0.438rem; /*7px*/
   box-shadow: 0rem 0.313rem 0.063rem rgba(0, 0, 0, 0.25);
-  margin-bottom: 6.25rem; /* 100 */
+  /* 100 */
+  position: relative;
 }
 
 .recommendation__card--container img {
@@ -85,6 +87,20 @@ h1, h2, p {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.recommendation__card--container h2 {
+  color: #ffffff;
+}
+
+.recommendation__card--title h2 {
+  color: #ffffff;
+}
+
+.recommendation__card--title {
+  position: absolute;
+  bottom: 8px;
+  left: 150px;
 }
 
 /*body *//*# sourceMappingURL=main.css.map */
