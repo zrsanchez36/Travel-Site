@@ -76,9 +76,14 @@ h1 {
 footer p {
     color: map-get($colors, footer__text--col);
 }
+
 footer h4 {
     color: map-get($colors,footer__tile--col);
     font-weight: 6.25rem; /* 100px */
+}
+
+footer h2 {
+    color: map-get($colors, logo__text--col);
 }
 
 .footer__titles {

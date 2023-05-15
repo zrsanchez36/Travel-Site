@@ -26,9 +26,8 @@ $colors: (
 
 .hero__section {
     display: flex;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-bottom: 5%;
+    padding: 5%;
+    background-color: map-get($colors, page__background--col);
 }
 
 h1, h2, p{

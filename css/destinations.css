@@ -1,1 +1,52 @@
-/*# sourceMappingURL=destinations.css.map */
+.schedule__card--container h3 {
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+  text-decoration-thickness: 0.2rem; /* 3.2px */
+  display: inline-block;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.hawaii__bg {
+  width: 100% vw;
+  background-image: url("../assets/Images/hawaii.jpg");
+  height: 50rem;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  margin: 0%;
+}
+
+.hawaii__bg h1 {
+  color: #ffffff;
+  font-size: 5rem;
+  text-align: left;
+}
+
+.site__title--container {
+  width: 50rem; /*100px*/
+  height: 6.25rem;
+  text-align: center;
+  padding: 5%;
+  display: flex;
+}
+
+.friday__card, .saturday__card, .sunday__card {
+  display: inline-block;
+  height: 400px;
+  width: 300px;
+  overflow: hidden;
+  margin-right: 3%;
+  border-radius: 0.438rem; /*7px*/
+  box-shadow: 0rem 0.313rem 0.063rem rgba(0, 0, 0, 0.25);
+  margin-bottom: 6.25rem; /* 100 */
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.schedule__card--container {
+  display: flex;
+  width: 100%;
+  padding: 4%;
+  justify-content: center;
+}/*# sourceMappingURL=destinations.css.map */

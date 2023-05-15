@@ -63,6 +63,10 @@ footer h4 {
   font-weight: 6.25rem; /* 100px */
 }
 
+footer h2 {
+  color: #335576;
+}
+
 .footer__titles {
   display: inline-block;
   width: 60rem; /* 960px */
